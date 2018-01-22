@@ -1,7 +1,7 @@
 # 381p1
 dota2!
 
-Members:
+Members:\n
 Wendong Cui -> Preprocessing;
 Dino de Raad -> Background;
 Carter -> Similar past works / references;
