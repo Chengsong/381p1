@@ -1,10 +1,13 @@
 def main():
+    # load lp_solve output
     with open('model2.out', 'r') as input:
         with open('model2_truncated.out', 'w') as output:
             for line in input.readlines():
                 if (not line.startswith('x') or line.endswith('1\n')):
+                    # write only variables whose values = 1
                     output.write(line)
 
+    # convert the result to hero names and lane
     with open('../heroes_stylized.txt') as input:
         heroes = [hero.strip() for hero in input.readlines()]
     lanes = ['mid', 'off', 'safe']
