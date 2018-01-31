@@ -21,7 +21,7 @@ Hero: Omniknight, Lane: safe
 Hero: Spectre, Lane: safe
 Hero: Visage, Lane: mid
 
-We can approximately verify the solution by picking 1000 random choices of 5 heroes that confirms to the role constraint, and confirm that our solution indeed has the highest win rate. See figure <x>. <insert appropriate figure number in x>
+We can approximately verify the solution by picking 1000 random choices of 5 heroes that confirms to the role constraint, and confirm that our solution indeed has the highest win rate. See figure <x>. <insert appropriate figure number in x for verification.png> The figure shows that our opt solution, designated as a red line, has significantly higher win rate than the other random teams, which verifies its legitimacy.
 
 This is a realistic solution based on empirical experience. <Dino plz elaborate here>
 
