@@ -1,0 +1,5 @@
+Hero: Abaddon, Lane: off
+Hero: Necrophos, Lane: off
+Hero: Omniknight, Lane: safe
+Hero: Spectre, Lane: safe
+Hero: Visage, Lane: mid
